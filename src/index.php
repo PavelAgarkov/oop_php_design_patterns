@@ -6,4 +6,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $src_root = __DIR__ . '/../src/patterns/object_formation/';
 
 // singleton
-require_once $src_root . 'singleton/demonstration.php';
+//require_once $src_root . 'singleton/demonstration.php';
+
+// factory_method
+require_once $src_root . 'factory_method/demonstration.php';
