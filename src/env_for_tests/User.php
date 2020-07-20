@@ -1,9 +1,9 @@
 <?php
 
-namespace patterns\env_for_tests;
+namespace src\env_for_tests;
 
-use patterns\object_formation\singleton\src\SingletonInterface;
-use patterns\object_formation\singleton\src\SingletonTrait;
+use src\patterns\object_formation\singleton\src\SingletonInterface;
+use src\patterns\object_formation\singleton\src\SingletonTrait;
 
 class User implements SingletonInterface
 {

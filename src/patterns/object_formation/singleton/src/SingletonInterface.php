@@ -1,6 +1,6 @@
 <?php
 
-namespace patterns\object_formation\singleton\src;
+namespace src\patterns\object_formation\singleton\src;
 
 interface SingletonInterface
 {

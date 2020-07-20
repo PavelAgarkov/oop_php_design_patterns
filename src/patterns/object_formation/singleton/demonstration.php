@@ -1,6 +1,6 @@
 <?php
 
-use patterns\env_for_tests\User;
+use src\env_for_tests\User;
 
 User::initialization();
 User::changeState('opp', 1);
