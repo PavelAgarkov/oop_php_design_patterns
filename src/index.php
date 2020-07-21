@@ -15,4 +15,7 @@ $src_root = __DIR__ . '/../src/patterns/object_formation/';
 //require_once $src_root . 'abstract_factory/demonstration.php';
 
 // prototype
-require_once $src_root . 'prototype/demonstration.php';
+//require_once $src_root . 'prototype/demonstration.php';
+
+// service_locator
+require_once $src_root . 'service_locator/demonstration.php';
