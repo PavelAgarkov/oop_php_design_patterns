@@ -10,22 +10,22 @@ class Configurations
 
     public function __construct(string $firstConfig, int $secondConfig, array $thirdConfig)
     {
-        $this->firstConfig  = $firstConfig;
+        $this->firstConfig = $firstConfig;
         $this->secondConfig = $secondConfig;
-        $this->thirdConfig  = $thirdConfig;
+        $this->thirdConfig = $thirdConfig;
     }
 
-    public function getFirstConfig() :string
+    public function getFirstConfig(): string
     {
         return $this->firstConfig;
     }
 
-    public function getSecondConfig() :int
+    public function getSecondConfig(): int
     {
         return $this->secondConfig;
     }
 
-    public function getThirdConfig() :array
+    public function getThirdConfig(): array
     {
         return $this->thirdConfig;
     }

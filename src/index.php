@@ -3,22 +3,25 @@
 declare(strict_types=1);
 require __DIR__ . '/../vendor/autoload.php';
 
-$src_root = __DIR__ . '/../src/patterns/object_formation/';
+$src_root = __DIR__ . '/../src/patterns/';
 
 // singleton
-//require_once $src_root . 'singleton/demonstration.php';
+//require_once $src_root . 'object_formation/singleton/demonstration.php';
 
 // factory_method
-//require_once $src_root . 'factory_method/demonstration.php';
+//require_once $src_root . 'object_formation/factory_method/demonstration.php';
 
 // abstract_factory
-//require_once $src_root . 'abstract_factory/demonstration.php';
+//require_once $src_root . 'object_formation/abstract_factory/demonstration.php';
 
 // prototype
-//require_once $src_root . 'prototype/demonstration.php';
+//require_once $src_root . 'object_formation/prototype/demonstration.php';
 
 // service_locator
-//require_once $src_root . 'service_locator/demonstration.php';
+//require_once $src_root . 'object_formation/service_locator/demonstration.php';
 
 // dependency_injection
-require_once $src_root . 'dependency_injection/demonstration.php';
+//require_once $src_root . 'object_formation/dependency_injection/demonstration.php';
+
+// composite
+require_once $src_root . 'flexible_object_formation/composite/demonstration.php';
