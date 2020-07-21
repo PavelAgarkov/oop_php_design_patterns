@@ -9,6 +9,3 @@ use src\patterns\object_formation\service_locator\src\ServiceLocator;
 
 $serviceLocator = ServiceLocator::getInstance();
 print_r($serviceLocator->getCommsManager());
-
-
-

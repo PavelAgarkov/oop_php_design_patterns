@@ -11,7 +11,7 @@ class ServiceLocator
 {
     private static ServiceLocator $instance;
 
-    // использование кода из abstract factory
+    // использование кода из abstract_factory
     private CommsManager $commsManager;
 
     private function __construct()
