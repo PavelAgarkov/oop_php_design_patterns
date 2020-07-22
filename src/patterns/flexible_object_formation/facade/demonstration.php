@@ -2,7 +2,7 @@
 
 use src\patterns\flexible_object_formation\facade\src\Facade;
 
-require_once 'src/array.php';
+require_once '_config_db.php';
 
 /**
  * Шаблон facade предназначен для разграничения логики и предоставления комфортного интерфейса для дальнейшего
