@@ -23,7 +23,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 // dependency_injection
 //require_once $src_root . 'object_formation/dependency_injection/demonstration.php';
 
-// compositeл
+// composite
 //require_once $src_root . 'flexible_object_formation/composite/demonstration.php';
 
 // decorator

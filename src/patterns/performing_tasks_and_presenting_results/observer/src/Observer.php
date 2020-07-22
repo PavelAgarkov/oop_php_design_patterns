@@ -23,4 +23,9 @@ class Observer implements SplObserver
     {
 
     }
+
+    public function countChanges(): int
+    {
+        return count($this->changes);
+    }
 }

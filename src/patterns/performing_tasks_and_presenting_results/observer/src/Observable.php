@@ -40,4 +40,9 @@ class Observable implements SplSubject
         }
     }
 
+    public function count(): int
+    {
+        return $this->observers->count();
+    }
+
 }

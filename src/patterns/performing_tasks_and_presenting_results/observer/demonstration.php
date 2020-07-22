@@ -23,4 +23,14 @@ $observable->changeRecord('one_record');
 $observable->changeRecord('two_records');
 $observable->changeRecord('tree_records');
 
-print_r($firstObserver->getChanges());
+// number of observers in the observed
+echo $count = $observable->count() . PHP_EOL;
+
+// number of events in the first observer
+echo $countChangesInFirstObserver = $firstObserver->countChanges() . PHP_EOL;
+
+// number of events in the second observer
+echo $countChangesInSecondObserver = $secondObserver->countChanges() . PHP_EOL;
+
+//print_r($firstObserver->getChanges());
+//print_r($secondObserver->getChanges());
