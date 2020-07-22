@@ -30,4 +30,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 //require_once $src_root . 'flexible_object_formation/decorator/demonstration.php';
 
 // facade
-require_once  $src_root . 'flexible_object_formation/facade/demonstration.php';
+//require_once  $src_root . 'flexible_object_formation/facade/demonstration.php';
+
+// strategy
+require_once $src_root .'performing_tasks_and_presenting_results/strategy/demonstration.php';
