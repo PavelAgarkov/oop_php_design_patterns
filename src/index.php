@@ -24,4 +24,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 //require_once $src_root . 'object_formation/dependency_injection/demonstration.php';
 
 // composite
-require_once $src_root . 'flexible_object_formation/composite/demonstration.php';
+//require_once $src_root . 'flexible_object_formation/composite/demonstration.php';
+
+// decorator
+require_once $src_root . 'flexible_object_formation/decorator/demonstration.php';
