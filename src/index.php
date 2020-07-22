@@ -23,7 +23,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 // dependency_injection
 //require_once $src_root . 'object_formation/dependency_injection/demonstration.php';
 
-// composite
+// compositeл
 //require_once $src_root . 'flexible_object_formation/composite/demonstration.php';
 
 // decorator
@@ -33,4 +33,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 //require_once  $src_root . 'flexible_object_formation/facade/demonstration.php';
 
 // strategy
-require_once $src_root .'performing_tasks_and_presenting_results/strategy/demonstration.php';
+//require_once $src_root .'performing_tasks_and_presenting_results/strategy/demonstration.php';
+
+// observer
+require_once $src_root . 'performing_tasks_and_presenting_results/observer/demonstration.php';
