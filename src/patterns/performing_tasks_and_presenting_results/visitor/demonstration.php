@@ -1,10 +1,10 @@
 <?php
 
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\Visitor;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visitor\Visitor;
 
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\FirstVisited;
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\SecondVisited;
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\ThirdVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\FirstVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\SecondVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\ThirdVisited;
 
 /**
  * Шаблон visitor(посетителя) предлагает перенести логику выполнения наследуемых сущностей в сущность visitor и, в дальнейшем

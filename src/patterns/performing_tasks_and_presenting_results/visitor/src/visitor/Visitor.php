@@ -1,12 +1,12 @@
 <?php
 
-namespace src\patterns\performing_tasks_and_presenting_results\visitor\src;
+namespace src\patterns\performing_tasks_and_presenting_results\visitor\src\visitor;
 
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\VisitedInterface;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\VisitedInterface;
 
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\FirstVisited;
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\SecondVisited;
-use src\patterns\performing_tasks_and_presenting_results\visitor\src\ThirdVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\FirstVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\SecondVisited;
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\ThirdVisited;
 
 class Visitor implements VisitorInterface
 {

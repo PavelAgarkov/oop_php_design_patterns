@@ -1,6 +1,6 @@
 <?php
 
-namespace src\patterns\performing_tasks_and_presenting_results\visitor\src;
+namespace src\patterns\performing_tasks_and_presenting_results\visitor\src\visited;
 
 abstract class BaseVisited
 {

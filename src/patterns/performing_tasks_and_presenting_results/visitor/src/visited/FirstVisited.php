@@ -1,0 +1,18 @@
+<?php
+
+namespace src\patterns\performing_tasks_and_presenting_results\visitor\src\visited;
+
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\BaseVisited;
+
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visited\VisitedInterface;
+
+use src\patterns\performing_tasks_and_presenting_results\visitor\src\visitor\VisitorInterface;
+
+class FirstVisited extends BaseVisited implements VisitedInterface
+{
+
+    public function accept(VisitorInterface $visitor): void
+    {
+        $visitor->firstVisitor($this);
+    }
+}
