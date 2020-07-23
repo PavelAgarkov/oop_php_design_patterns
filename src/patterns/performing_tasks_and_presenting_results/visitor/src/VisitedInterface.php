@@ -6,5 +6,5 @@ use src\patterns\performing_tasks_and_presenting_results\visitor\src\VisitorInte
 
 interface VisitedInterface
 {
-    public function accept(VisitorInterface $visitor);
+    public function accept(VisitorInterface $visitor): void;
 }
