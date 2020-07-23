@@ -36,4 +36,7 @@ $src_root = __DIR__ . '/../src/patterns/';
 //require_once $src_root .'performing_tasks_and_presenting_results/strategy/demonstration.php';
 
 // observer
-require_once $src_root . 'performing_tasks_and_presenting_results/observer/demonstration.php';
+//require_once $src_root . 'performing_tasks_and_presenting_results/observer/demonstration.php';
+
+// visitor
+require_once $src_root . 'performing_tasks_and_presenting_results/visitor/demonstration.php';
